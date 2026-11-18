@@ -6,9 +6,9 @@ kas peserta, plotting kursi multi-unit, itinerary, dan laporan PDF.
 Dibuat sebagai proyek mata kuliah Rekayasa Perangkat Lunak, Universitas Indraprasta PGRI.
 
 ## Anggota Tim
-- (nama anggota 1) — feature/menu-dashboard (Menu Dashboard Trip)
-- (nama anggota 2) — feature/menu-kas (Menu Registrasi & Kas)
-- (nama anggota 3) — feature/menu-plotting (Menu Plotting Kursi)
+- (Muhammad Rizki Fadillah) — feature/menu-dashboard (Menu Dashboard Trip)
+- (Angelina Elvira Irani) — feature/menu-kas (Menu Registrasi & Kas)
+- (Rai Putra) — feature/menu-plotting (Menu Plotting Kursi)
 
 ## Struktur Program
 
