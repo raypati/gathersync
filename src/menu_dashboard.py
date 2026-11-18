@@ -7,7 +7,7 @@ from aturan_bisnis import cek_bentrok_jadwal, hitung_rekomendasi_armada, hitung_
 from database import catat_audit
 
 class DashboardMixin:
-    """Menu 1: Dashboard Trip (buat, ubah, hapus, pilih trip)"""
+    """Menu 1: Dashboard Trip (buat, ubah, hapus, pilih trip)""" edit by riski
 
     def setup_dash_frame(self):
         self.make_gradient_banner(self.dash_frame, height=50, title="Manajemen Open Trip", subtitle="Tetapkan harga flat di awal · Rekomendasi armada otomatis berdasarkan jumlah peserta")
