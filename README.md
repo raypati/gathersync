@@ -27,6 +27,17 @@ Dibuat sebagai proyek mata kuliah Rekayasa Perangkat Lunak, Universitas Indrapra
 | test_gathersync.py | Unit test | test/unit-test-logika |
 | docs/ | Dokumen SRS, diagram, laporan | docs/srs-uml |
 
+Fitur
+Login admin (password disimpan sebagai hash SHA-256)
+Manajemen trip: leader, tim otomatis, harga flat, validasi bentrok jadwal leader
+Registrasi dan kas peserta dengan status otomatis (Belum Bayar, DP Diterima, Cicilan, Lunas)
+Rekomendasi armada dan plotting kursi multi-unit (sopir di kanan depan)
+Itinerary kegiatan
+Manifest, log audit otomatis, dan ekspor PDF
+
+Teknologi
+Python 3, customtkinter, tkcalendar, SQLite (sqlite3), reportlab.
+
 ## Cara Menjalankan
 1. Clone repository: `git clone <url-repo>`
 2. Pasang pustaka: `pip install -r requirements.txt`
@@ -36,8 +47,17 @@ Dibuat sebagai proyek mata kuliah Rekayasa Perangkat Lunak, Universitas Indrapra
 ## Menjalankan Pengujian
 ```
 python -m unittest test_gathersync -v
+Struktur repositori
+gathersync.py          program utama
+test_gathersync.py     unit test (blackbox dan whitebox)
+requirements.txt       daftar pustaka
+docs/                  dokumen tugas (SRS, diagram, laporan)
+.github/               template issue dan pull request
 ```
+
 =======
 # Dokumen
 Dokumen tugas Rekayasa Perangkat Lunak untuk proyek GatherSync.
 >>>>>>> 642f91f3c1966f8b531c54c843e8215d3733bbad
+
+
