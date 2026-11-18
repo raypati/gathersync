@@ -12,7 +12,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, Tabl
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 
 # ==========================================
-# 0. DESIGN SYSTEM & STRUKTUR TIM GATHERSYNC
+# 0. DESIGN SYSTEM & STRUKTUR TIM GATHERSYNC KEL.5 RPL
 # ==========================================
 COLOR = {
     "bg_root":        "#0f1115",
