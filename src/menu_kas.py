@@ -6,7 +6,7 @@ from aturan_bisnis import hitung_kategori
 from database import catat_audit
 
 class KasMixin:
-    """Menu 2: Registrasi & Kas peserta"""
+    """Menu 2: Registrasi & Kas peserta""" edit by angel
 
     def setup_kas_frame(self):
         self.edit_id = None
